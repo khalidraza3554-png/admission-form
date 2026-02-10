@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imam-e-Azam Coaching Centre - Admission Form</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #e8f5e9; padding: 15px; direction: rtl; }
+        .form-card { background: white; padding: 20px; border-radius: 12px; border-top: 10px solid #006633; box-shadow: 0 8px 16px rgba(0,0,0,0.1); max-width: 450px; margin: auto; }
+        h2 { color: #006633; margin-bottom: 5px; text-align: center; font-size: 24px; }
+        .subtitle { color: #555; margin-bottom: 20px; text-align: center; font-size: 14px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        label { display: block; margin-top: 10px; font-weight: bold; color: #333; }
+        input, select { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; font-size: 16px; text-align: right; background: #fafafa; }
+        button { background: #006633; color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; cursor: pointer; font-size: 18px; font-weight: bold; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+        button:hover { background: #004d26; }
+        .footer-info { margin-top: 20px; font-size: 12px; color: #777; text-align: center; line-height: 1.6; }
+    </style>
+</head>
+<body>
+
+<div class="form-card">
+    <h2>امامِ اعظم کوچنگ سینٹر</h2>
+    <p class="subtitle">ڈالٹن گنج، پلاموں (جھارکھنڈ)<br>داخلہ فارم (Admission Form 2026)</p>
+    
+    <form action="https://script.google.com/macros/s/AKfycbyKTkBNCfwtN3ElwAmgtRNbpCI2p6wzGSvtsD8zCo5re0qO0m-DlMrXnIL_yaUWsDAO/exec" method="POST">
+        
+        <label>طالب علم کا نام:</label>
+        <input type="text" name="name" placeholder="اپنا پورا نام لکھیں" required>
+        
+        <label>والد کا نام:</label>
+        <input type="text" name="father" placeholder="والد کا نام لکھیں" required>
+        
+        <label>آدھار کارڈ نمبر:</label>
+        <input type="number" name="aadhar" placeholder="12 ہندسوں کا نمبر" required>
+        
+        <label>مطلوبہ درجہ:</label>
+        <select name="class" required>
+            <option value="">درجہ منتخب کریں</option>
+            <option value="Aadiya">اعدادیہ تا سابعہ</option>
+            <option value="Ashrafia Preparation">جامعہ اشرفیہ تیاری</option>
+            <option value="Amjadia Preparation">جامعہ امجدیہ تیاری</option>
+        </select>
+        
+        <label>فون نمبر (Mobile):</label>
+        <input type="text" name="mobile" placeholder="78560XXXXX" required>
+        
+        <button type="submit">فارم جمع کریں (Submit)</button>
+    </form>
+    
+    <div class="footer-info">
+        نوٹ: داخلہ فیس 500 روپے اور خوراکی 2000 روپے ماہانہ ہے۔<br>
+        مزید معلومات: 7856076434 / 7459065676
+    </div>
+</div>
+
+</body>
+</html>
